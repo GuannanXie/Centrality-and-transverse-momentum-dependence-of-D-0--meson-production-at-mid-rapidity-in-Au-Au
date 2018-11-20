@@ -1,4 +1,7 @@
 % ****** Start of file apssamp.tex ******
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL Bak/D0spectra.0907.tex                                                                                            Fri Sep  7 05:36:41 2018
+%DIF ADD ./Centrality-and-transverse-momentum-dependence-of-D-0--meson-production-at-mid-rapidity-in-Au-Au/D0spectra.tex   Wed Oct 24 21:07:08 2018
 %
 %   This file is part of the APS files in the REVTeX 4.1 distribution.
 %   Version 4.1r of REVTeX, August 2010
@@ -57,6 +60,30 @@
 %%total={6.5in,8.75in}, top=1.2in, left=0.9in, includefoot,
 %%height=10in,a5paper,hmargin={3cm,0.8in},
 %]{geometry}
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFaddtex}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdeltex}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF HYPERREF PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{\texorpdfstring{\DIFaddtex{#1}}{#1}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{\texorpdfstring{\DIFdeltex{#1}}{}} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
 
 \begin{document}
 
@@ -65,851 +92,12 @@
 \title{Centrality and transverse momentum dependence of $D^0$-meson production at mid-rapidity in Au + Au collisions at $\sqrt{s_{_{\rm NN}}}$ = 200\,GeV}% Force line breaks with \\
 %\thanks{A footnote to the article title}%
 
-% \author{Ann Author}
+%\author{Ann Author}
 % \altaffiliation[Also at ]{Physics Department, XYZ University.}%Lines break automatically or can be forced with \\
-% \author{Second Author}%
+%\author{Second Author}%
 % \email{Second.Author@institution.edu}
-% \affiliation{% Authors' institution and/or address\\ This line break forced with \textbackslash\textbackslash
-% }%
-
-
-% \author{J.~Adam}\affiliation{Creighton University, Omaha, Nebraska 68178}
-% \author{L.~Adamczyk}\affiliation{AGH University of Science and Technology, FPACS, Cracow 30-059, Poland}
-% \author{J.~R.~Adams}\affiliation{Ohio State University, Columbus, Ohio 43210}
-% \author{J.~K.~Adkins}\affiliation{University of Kentucky, Lexington, Kentucky 40506-0055}
-% \author{G.~Agakishiev}\affiliation{Joint Institute for Nuclear Research, Dubna 141 980, Russia}
-% \author{M.~M.~Aggarwal}\affiliation{Panjab University, Chandigarh 160014, India}
-% \author{Z.~Ahammed}\affiliation{Variable Energy Cyclotron Centre, Kolkata 700064, India}
-% \author{I.~Alekseev}\affiliation{Alikhanov Institute for Theoretical and Experimental Physics, Moscow 117218, Russia}\affiliation{National Research Nuclear University MEPhI, Moscow 115409, Russia}
-% \author{D.~M.~Anderson}\affiliation{Texas A\&M University, College Station, Texas 77843}
-% \author{R.~Aoyama}\affiliation{University of Tsukuba, Tsukuba, Ibaraki 305-8571, Japan}
-% \author{A.~Aparin}\affiliation{Joint Institute for Nuclear Research, Dubna 141 980, Russia}
-% \author{D.~Arkhipkin}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{E.~C.~Aschenauer}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{M.~U.~Ashraf}\affiliation{Tsinghua University, Beijing 100084}
-% \author{F.~Atetalla}\affiliation{Kent State University, Kent, Ohio 44242}
-% \author{A.~Attri}\affiliation{Panjab University, Chandigarh 160014, India}
-% \author{G.~S.~Averichev}\affiliation{Joint Institute for Nuclear Research, Dubna 141 980, Russia}
-% \author{V.~Bairathi}\affiliation{National Institute of Science Education and Research, HBNI, Jatni 752050, India}
-% \author{K.~Barish}\affiliation{University of California, Riverside, California 92521}
-% \author{A.~J.~Bassill}\affiliation{University of California, Riverside, California 92521}
-% \author{A.~Behera}\affiliation{State University of New York, Stony Brook, New York 11794}
-% \author{R.~Bellwied}\affiliation{University of Houston, Houston, Texas 77204}
-% \author{A.~Bhasin}\affiliation{University of Jammu, Jammu 180001, India}
-% \author{A.~K.~Bhati}\affiliation{Panjab University, Chandigarh 160014, India}
-% \author{J.~Bielcik}\affiliation{Czech Technical University in Prague, FNSPE, Prague 115 19, Czech Republic}
-% \author{J.~Bielcikova}\affiliation{Nuclear Physics Institute of the CAS, Rez 250 68, Czech Republic}
-% \author{L.~C.~Bland}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{I.~G.~Bordyuzhin}\affiliation{Alikhanov Institute for Theoretical and Experimental Physics, Moscow 117218, Russia}
-% \author{J.~D.~Brandenburg}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{A.~V.~Brandin}\affiliation{National Research Nuclear University MEPhI, Moscow 115409, Russia}
-% \author{D.~Brown}\affiliation{Lehigh University, Bethlehem, Pennsylvania 18015}
-% \author{J.~Bryslawskyj}\affiliation{University of California, Riverside, California 92521}
-% \author{I.~Bunzarov}\affiliation{Joint Institute for Nuclear Research, Dubna 141 980, Russia}
-% \author{J.~Butterworth}\affiliation{Rice University, Houston, Texas 77251}
-% \author{H.~Caines}\affiliation{Yale University, New Haven, Connecticut 06520}
-% \author{M.~Calder{\'o}n~de~la~Barca~S{\'a}nchez}\affiliation{University of California, Davis, California 95616}
-% \author{D.~Cebra}\affiliation{University of California, Davis, California 95616}
-% \author{I.~Chakaberia}\affiliation{Kent State University, Kent, Ohio 44242}\affiliation{Shandong University, Qingdao, Shandong 266237}
-% \author{P.~Chaloupka}\affiliation{Czech Technical University in Prague, FNSPE, Prague 115 19, Czech Republic}
-% \author{B.~K.~Chan}\affiliation{University of California, Los Angeles, California 90095}
-% \author{F-H.~Chang}\affiliation{National Cheng Kung University, Tainan 70101 }
-% \author{Z.~Chang}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{N.~Chankova-Bunzarova}\affiliation{Joint Institute for Nuclear Research, Dubna 141 980, Russia}
-% \author{A.~Chatterjee}\affiliation{Variable Energy Cyclotron Centre, Kolkata 700064, India}
-% \author{S.~Chattopadhyay}\affiliation{Variable Energy Cyclotron Centre, Kolkata 700064, India}
-% \author{J.~H.~Chen}\affiliation{Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800}
-% \author{X.~Chen}\affiliation{University of Science and Technology of China, Hefei, Anhui 230026}
-% \author{J.~Cheng}\affiliation{Tsinghua University, Beijing 100084}
-% \author{M.~Cherney}\affiliation{Creighton University, Omaha, Nebraska 68178}
-% \author{W.~Christie}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{G.~Contin}\affiliation{Lawrence Berkeley National Laboratory, Berkeley, California 94720}
-% \author{H.~J.~Crawford}\affiliation{University of California, Berkeley, California 94720}
-% \author{M.~Csanad}\affiliation{E\"otv\"os Lor\'and University, Budapest, Hungary H-1117}
-% \author{S.~Das}\affiliation{Central China Normal University, Wuhan, Hubei 430079 }
-% \author{T.~G.~Dedovich}\affiliation{Joint Institute for Nuclear Research, Dubna 141 980, Russia}
-% \author{I.~M.~Deppner}\affiliation{University of Heidelberg, Heidelberg 69120, Germany }
-% \author{A.~A.~Derevschikov}\affiliation{Institute of High Energy Physics, Protvino 142281, Russia}
-% \author{L.~Didenko}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{C.~Dilks}\affiliation{Pennsylvania State University, University Park, Pennsylvania 16802}
-% \author{X.~Dong}\affiliation{Lawrence Berkeley National Laboratory, Berkeley, California 94720}
-% \author{J.~L.~Drachenberg}\affiliation{Abilene Christian University, Abilene, Texas   79699}
-% \author{J.~C.~Dunlop}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{T.~Edmonds}\affiliation{Purdue University, West Lafayette, Indiana 47907}
-% \author{L.~G.~Efimov}\affiliation{Joint Institute for Nuclear Research, Dubna 141 980, Russia}
-% \author{N.~Elsey}\affiliation{Wayne State University, Detroit, Michigan 48201}
-% \author{J.~Engelage}\affiliation{University of California, Berkeley, California 94720}
-% \author{G.~Eppley}\affiliation{Rice University, Houston, Texas 77251}
-% \author{R.~Esha}\affiliation{University of California, Los Angeles, California 90095}
-% \author{S.~Esumi}\affiliation{University of Tsukuba, Tsukuba, Ibaraki 305-8571, Japan}
-% \author{O.~Evdokimov}\affiliation{University of Illinois at Chicago, Chicago, Illinois 60607}
-% \author{J.~Ewigleben}\affiliation{Lehigh University, Bethlehem, Pennsylvania 18015}
-% \author{O.~Eyser}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{R.~Fatemi}\affiliation{University of Kentucky, Lexington, Kentucky 40506-0055}
-% \author{S.~Fazio}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{P.~Federic}\affiliation{Nuclear Physics Institute of the CAS, Rez 250 68, Czech Republic}
-% \author{J.~Fedorisin}\affiliation{Joint Institute for Nuclear Research, Dubna 141 980, Russia}
-% \author{P.~Filip}\affiliation{Joint Institute for Nuclear Research, Dubna 141 980, Russia}
-% \author{E.~Finch}\affiliation{Southern Connecticut State University, New Haven, Connecticut 06515}
-% \author{Y.~Fisyak}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{C.~E.~Flores}\affiliation{University of California, Davis, California 95616}
-% \author{L.~Fulek}\affiliation{AGH University of Science and Technology, FPACS, Cracow 30-059, Poland}
-% \author{C.~A.~Gagliardi}\affiliation{Texas A\&M University, College Station, Texas 77843}
-% \author{T.~Galatyuk}\affiliation{Technische Universit\"at Darmstadt, Darmstadt 64289, Germany}
-% \author{F.~Geurts}\affiliation{Rice University, Houston, Texas 77251}
-% \author{A.~Gibson}\affiliation{Valparaiso University, Valparaiso, Indiana 46383}
-% \author{D.~Grosnick}\affiliation{Valparaiso University, Valparaiso, Indiana 46383}
-% \author{D.~S.~Gunarathne}\affiliation{Temple University, Philadelphia, Pennsylvania 19122}
-% \author{Y.~Guo}\affiliation{Kent State University, Kent, Ohio 44242}
-% \author{A.~Gupta}\affiliation{University of Jammu, Jammu 180001, India}
-% \author{W.~Guryn}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{A.~I.~Hamad}\affiliation{Kent State University, Kent, Ohio 44242}
-% \author{A.~Hamed}\affiliation{Texas A\&M University, College Station, Texas 77843}
-% \author{A.~Harlenderova}\affiliation{Czech Technical University in Prague, FNSPE, Prague 115 19, Czech Republic}
-% \author{J.~W.~Harris}\affiliation{Yale University, New Haven, Connecticut 06520}
-% \author{L.~He}\affiliation{Purdue University, West Lafayette, Indiana 47907}
-% \author{S.~Heppelmann}\affiliation{University of California, Davis, California 95616}
-% \author{S.~Heppelmann}\affiliation{Pennsylvania State University, University Park, Pennsylvania 16802}
-% \author{N.~Herrmann}\affiliation{University of Heidelberg, Heidelberg 69120, Germany }
-% \author{A.~Hirsch}\affiliation{Purdue University, West Lafayette, Indiana 47907}
-% \author{L.~Holub}\affiliation{Czech Technical University in Prague, FNSPE, Prague 115 19, Czech Republic}
-% \author{Y.~Hong}\affiliation{Lawrence Berkeley National Laboratory, Berkeley, California 94720}
-% \author{S.~Horvat}\affiliation{Yale University, New Haven, Connecticut 06520}
-% \author{B.~Huang}\affiliation{University of Illinois at Chicago, Chicago, Illinois 60607}
-% \author{H.~Z.~Huang}\affiliation{University of California, Los Angeles, California 90095}
-% \author{S.~L.~Huang}\affiliation{State University of New York, Stony Brook, New York 11794}
-% \author{T.~Huang}\affiliation{National Cheng Kung University, Tainan 70101 }
-% \author{X.~ Huang}\affiliation{Tsinghua University, Beijing 100084}
-% \author{T.~J.~Humanic}\affiliation{Ohio State University, Columbus, Ohio 43210}
-% \author{P.~Huo}\affiliation{State University of New York, Stony Brook, New York 11794}
-% \author{G.~Igo}\affiliation{University of California, Los Angeles, California 90095}
-% \author{W.~W.~Jacobs}\affiliation{Indiana University, Bloomington, Indiana 47408}
-% \author{A.~Jentsch}\affiliation{University of Texas, Austin, Texas 78712}
-% \author{J.~Jia}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}\affiliation{State University of New York, Stony Brook, New York 11794}
-% \author{K.~Jiang}\affiliation{University of Science and Technology of China, Hefei, Anhui 230026}
-% \author{S.~Jowzaee}\affiliation{Wayne State University, Detroit, Michigan 48201}
-% \author{X.~Ju}\affiliation{University of Science and Technology of China, Hefei, Anhui 230026}
-% \author{E.~G.~Judd}\affiliation{University of California, Berkeley, California 94720}
-% \author{S.~Kabana}\affiliation{Kent State University, Kent, Ohio 44242}
-% \author{S.~Kagamaster}\affiliation{Lehigh University, Bethlehem, Pennsylvania 18015}
-% \author{D.~Kalinkin}\affiliation{Indiana University, Bloomington, Indiana 47408}
-% \author{K.~Kang}\affiliation{Tsinghua University, Beijing 100084}
-% \author{D.~Kapukchyan}\affiliation{University of California, Riverside, California 92521}
-% \author{K.~Kauder}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{H.~W.~Ke}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{D.~Keane}\affiliation{Kent State University, Kent, Ohio 44242}
-% \author{A.~Kechechyan}\affiliation{Joint Institute for Nuclear Research, Dubna 141 980, Russia}
-% \author{M.~Kelsey}\affiliation{Lawrence Berkeley National Laboratory, Berkeley, California 94720}
-% \author{D.~P.~Kiko\l{}a~}\affiliation{Warsaw University of Technology, Warsaw 00-661, Poland}
-% \author{C.~Kim}\affiliation{University of California, Riverside, California 92521}
-% \author{T.~A.~Kinghorn}\affiliation{University of California, Davis, California 95616}
-% \author{I.~Kisel}\affiliation{Frankfurt Institute for Advanced Studies FIAS, Frankfurt 60438, Germany}
-% \author{A.~Kisiel}\affiliation{Warsaw University of Technology, Warsaw 00-661, Poland}
-% \author{M.~Kocan}\affiliation{Czech Technical University in Prague, FNSPE, Prague 115 19, Czech Republic}
-% \author{L.~Kochenda}\affiliation{National Research Nuclear University MEPhI, Moscow 115409, Russia}
-% \author{L.~K.~Kosarzewski}\affiliation{Czech Technical University in Prague, FNSPE, Prague 115 19, Czech Republic}
-% \author{A.~F.~Kraishan}\affiliation{Temple University, Philadelphia, Pennsylvania 19122}
-% \author{L.~Kramarik}\affiliation{Czech Technical University in Prague, FNSPE, Prague 115 19, Czech Republic}
-% \author{L.~Krauth}\affiliation{University of California, Riverside, California 92521}
-% \author{P.~Kravtsov}\affiliation{National Research Nuclear University MEPhI, Moscow 115409, Russia}
-% \author{K.~Krueger}\affiliation{Argonne National Laboratory, Argonne, Illinois 60439}
-% \author{N.~Kulathunga~Mudiyanselage}\affiliation{University of Houston, Houston, Texas 77204}
-% \author{L.~Kumar}\affiliation{Panjab University, Chandigarh 160014, India}
-% \author{R.~Kunnawalkam~Elayavalli}\affiliation{Wayne State University, Detroit, Michigan 48201}
-% \author{J.~Kvapil}\affiliation{Czech Technical University in Prague, FNSPE, Prague 115 19, Czech Republic}
-% \author{J.~H.~Kwasizur}\affiliation{Indiana University, Bloomington, Indiana 47408}
-% \author{R.~Lacey}\affiliation{State University of New York, Stony Brook, New York 11794}
-% \author{J.~M.~Landgraf}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{J.~Lauret}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{A.~Lebedev}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{R.~Lednicky}\affiliation{Joint Institute for Nuclear Research, Dubna 141 980, Russia}
-% \author{J.~H.~Lee}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{C.~Li}\affiliation{University of Science and Technology of China, Hefei, Anhui 230026}
-% \author{W.~Li}\affiliation{Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800}
-% \author{W.~Li}\affiliation{Rice University, Houston, Texas 77251}
-% \author{X.~Li}\affiliation{University of Science and Technology of China, Hefei, Anhui 230026}
-% \author{Y.~Li}\affiliation{Tsinghua University, Beijing 100084}
-% \author{Y.~Liang}\affiliation{Kent State University, Kent, Ohio 44242}
-% \author{R.~Licenik}\affiliation{Czech Technical University in Prague, FNSPE, Prague 115 19, Czech Republic}
-% \author{J.~Lidrych}\affiliation{Czech Technical University in Prague, FNSPE, Prague 115 19, Czech Republic}
-% \author{T.~Lin}\affiliation{Texas A\&M University, College Station, Texas 77843}
-% \author{A.~Lipiec}\affiliation{Warsaw University of Technology, Warsaw 00-661, Poland}
-% \author{M.~A.~Lisa}\affiliation{Ohio State University, Columbus, Ohio 43210}
-% \author{F.~Liu}\affiliation{Central China Normal University, Wuhan, Hubei 430079 }
-% \author{H.~Liu}\affiliation{Indiana University, Bloomington, Indiana 47408}
-% \author{P.~ Liu}\affiliation{State University of New York, Stony Brook, New York 11794}
-% \author{P.~Liu}\affiliation{Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800}
-% \author{X.~Liu}\affiliation{Ohio State University, Columbus, Ohio 43210}
-% \author{Y.~Liu}\affiliation{Texas A\&M University, College Station, Texas 77843}
-% \author{Z.~Liu}\affiliation{University of Science and Technology of China, Hefei, Anhui 230026}
-% \author{T.~Ljubicic}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{W.~J.~Llope}\affiliation{Wayne State University, Detroit, Michigan 48201}
-% \author{M.~Lomnitz}\affiliation{Lawrence Berkeley National Laboratory, Berkeley, California 94720}
-% \author{R.~S.~Longacre}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{S.~Luo}\affiliation{University of Illinois at Chicago, Chicago, Illinois 60607}
-% \author{X.~Luo}\affiliation{Central China Normal University, Wuhan, Hubei 430079 }
-% \author{G.~L.~Ma}\affiliation{Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800}
-% \author{L.~Ma}\affiliation{Fudan University, Shanghai, 200433 }
-% \author{R.~Ma}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{Y.~G.~Ma}\affiliation{Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800}
-% \author{N.~Magdy}\affiliation{University of Illinois at Chicago, Chicago, Illinois 60607}
-% \author{R.~Majka}\affiliation{Yale University, New Haven, Connecticut 06520}
-% \author{D.~Mallick}\affiliation{National Institute of Science Education and Research, HBNI, Jatni 752050, India}
-% \author{S.~Margetis}\affiliation{Kent State University, Kent, Ohio 44242}
-% \author{C.~Markert}\affiliation{University of Texas, Austin, Texas 78712}
-% \author{H.~S.~Matis}\affiliation{Lawrence Berkeley National Laboratory, Berkeley, California 94720}
-% \author{O.~Matonoha}\affiliation{Czech Technical University in Prague, FNSPE, Prague 115 19, Czech Republic}
-% \author{J.~A.~Mazer}\affiliation{Rutgers University, Piscataway, New Jersey 08854}
-% \author{K.~Meehan}\affiliation{University of California, Davis, California 95616}
-% \author{J.~C.~Mei}\affiliation{Shandong University, Qingdao, Shandong 266237}
-% \author{N.~G.~Minaev}\affiliation{Institute of High Energy Physics, Protvino 142281, Russia}
-% \author{S.~Mioduszewski}\affiliation{Texas A\&M University, College Station, Texas 77843}
-% \author{D.~Mishra}\affiliation{National Institute of Science Education and Research, HBNI, Jatni 752050, India}
-% \author{B.~Mohanty}\affiliation{National Institute of Science Education and Research, HBNI, Jatni 752050, India}
-% \author{M.~M.~Mondal}\affiliation{Institute of Physics, Bhubaneswar 751005, India}
-% \author{I.~Mooney}\affiliation{Wayne State University, Detroit, Michigan 48201}
-% \author{Z.~Moravcova}\affiliation{Czech Technical University in Prague, FNSPE, Prague 115 19, Czech Republic}
-% \author{D.~A.~Morozov}\affiliation{Institute of High Energy Physics, Protvino 142281, Russia}
-% \author{Md.~Nasim}\affiliation{University of California, Los Angeles, California 90095}
-% \author{K.~Nayak}\affiliation{Central China Normal University, Wuhan, Hubei 430079 }
-% \author{J.~M.~Nelson}\affiliation{University of California, Berkeley, California 94720}
-% \author{D.~B.~Nemes}\affiliation{Yale University, New Haven, Connecticut 06520}
-% \author{M.~Nie}\affiliation{Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800}
-% \author{G.~Nigmatkulov}\affiliation{National Research Nuclear University MEPhI, Moscow 115409, Russia}
-% \author{T.~Niida}\affiliation{Wayne State University, Detroit, Michigan 48201}
-% \author{L.~V.~Nogach}\affiliation{Institute of High Energy Physics, Protvino 142281, Russia}
-% \author{T.~Nonaka}\affiliation{Central China Normal University, Wuhan, Hubei 430079 }
-% \author{G.~Odyniec}\affiliation{Lawrence Berkeley National Laboratory, Berkeley, California 94720}
-% \author{A.~Ogawa}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{K.~Oh}\affiliation{Pusan National University, Pusan 46241, Korea}
-% \author{S.~Oh}\affiliation{Yale University, New Haven, Connecticut 06520}
-% \author{V.~A.~Okorokov}\affiliation{National Research Nuclear University MEPhI, Moscow 115409, Russia}
-% \author{D.~Olvitt~Jr.}\affiliation{Temple University, Philadelphia, Pennsylvania 19122}
-% \author{B.~S.~Page}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{R.~Pak}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{Y.~Panebratsev}\affiliation{Joint Institute for Nuclear Research, Dubna 141 980, Russia}
-% \author{B.~Pawlik}\affiliation{Institute of Nuclear Physics PAN, Cracow 31-342, Poland}
-% \author{H.~Pei}\affiliation{Central China Normal University, Wuhan, Hubei 430079 }
-% \author{C.~Perkins}\affiliation{University of California, Berkeley, California 94720}
-% \author{R.~L.~Pinter}\affiliation{E\"otv\"os Lor\'and University, Budapest, Hungary H-1117}
-% \author{J.~Pluta}\affiliation{Warsaw University of Technology, Warsaw 00-661, Poland}
-% \author{J.~Porter}\affiliation{Lawrence Berkeley National Laboratory, Berkeley, California 94720}
-% \author{M.~Posik}\affiliation{Temple University, Philadelphia, Pennsylvania 19122}
-% \author{N.~K.~Pruthi}\affiliation{Panjab University, Chandigarh 160014, India}
-% \author{M.~Przybycien}\affiliation{AGH University of Science and Technology, FPACS, Cracow 30-059, Poland}
-% \author{J.~Putschke}\affiliation{Wayne State University, Detroit, Michigan 48201}
-% \author{A.~Quintero}\affiliation{Temple University, Philadelphia, Pennsylvania 19122}
-% \author{S.~K.~Radhakrishnan}\affiliation{Lawrence Berkeley National Laboratory, Berkeley, California 94720}
-% \author{R.~L.~Ray}\affiliation{University of Texas, Austin, Texas 78712}
-% \author{R.~Reed}\affiliation{Lehigh University, Bethlehem, Pennsylvania 18015}
-% \author{H.~G.~Ritter}\affiliation{Lawrence Berkeley National Laboratory, Berkeley, California 94720}
-% \author{J.~B.~Roberts}\affiliation{Rice University, Houston, Texas 77251}
-% \author{O.~V.~Rogachevskiy}\affiliation{Joint Institute for Nuclear Research, Dubna 141 980, Russia}
-% \author{J.~L.~Romero}\affiliation{University of California, Davis, California 95616}
-% \author{L.~Ruan}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{J.~Rusnak}\affiliation{Nuclear Physics Institute of the CAS, Rez 250 68, Czech Republic}
-% \author{O.~Rusnakova}\affiliation{Czech Technical University in Prague, FNSPE, Prague 115 19, Czech Republic}
-% \author{N.~R.~Sahoo}\affiliation{Texas A\&M University, College Station, Texas 77843}
-% \author{P.~K.~Sahu}\affiliation{Institute of Physics, Bhubaneswar 751005, India}
-% \author{S.~Salur}\affiliation{Rutgers University, Piscataway, New Jersey 08854}
-% \author{J.~Sandweiss}\affiliation{Yale University, New Haven, Connecticut 06520}
-% \author{J.~Schambach}\affiliation{University of Texas, Austin, Texas 78712}
-% \author{A.~M.~Schmah}\affiliation{Lawrence Berkeley National Laboratory, Berkeley, California 94720}
-% \author{W.~B.~Schmidke}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{N.~Schmitz}\affiliation{Max-Planck-Institut f\"ur Physik, Munich 80805, Germany}
-% \author{B.~R.~Schweid}\affiliation{State University of New York, Stony Brook, New York 11794}
-% \author{F.~Seck}\affiliation{Technische Universit\"at Darmstadt, Darmstadt 64289, Germany}
-% \author{J.~Seger}\affiliation{Creighton University, Omaha, Nebraska 68178}
-% \author{M.~Sergeeva}\affiliation{University of California, Los Angeles, California 90095}
-% \author{R.~ Seto}\affiliation{University of California, Riverside, California 92521}
-% \author{P.~Seyboth}\affiliation{Max-Planck-Institut f\"ur Physik, Munich 80805, Germany}
-% \author{N.~Shah}\affiliation{Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800}
-% \author{E.~Shahaliev}\affiliation{Joint Institute for Nuclear Research, Dubna 141 980, Russia}
-% \author{P.~V.~Shanmuganathan}\affiliation{Lehigh University, Bethlehem, Pennsylvania 18015}
-% \author{M.~Shao}\affiliation{University of Science and Technology of China, Hefei, Anhui 230026}
-% \author{F.~Shen}\affiliation{Shandong University, Qingdao, Shandong 266237}
-% \author{W.~Q.~Shen}\affiliation{Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800}
-% \author{S.~S.~Shi}\affiliation{Central China Normal University, Wuhan, Hubei 430079 }
-% \author{Q.~Y.~Shou}\affiliation{Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800}
-% \author{E.~P.~Sichtermann}\affiliation{Lawrence Berkeley National Laboratory, Berkeley, California 94720}
-% \author{S.~Siejka}\affiliation{Warsaw University of Technology, Warsaw 00-661, Poland}
-% \author{R.~Sikora}\affiliation{AGH University of Science and Technology, FPACS, Cracow 30-059, Poland}
-% \author{M.~Simko}\affiliation{Nuclear Physics Institute of the CAS, Rez 250 68, Czech Republic}
-% \author{JSingh}\affiliation{Panjab University, Chandigarh 160014, India}
-% \author{S.~Singha}\affiliation{Kent State University, Kent, Ohio 44242}
-% \author{D.~Smirnov}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{N.~Smirnov}\affiliation{Yale University, New Haven, Connecticut 06520}
-% \author{W.~Solyst}\affiliation{Indiana University, Bloomington, Indiana 47408}
-% \author{P.~Sorensen}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{H.~M.~Spinka}\affiliation{Argonne National Laboratory, Argonne, Illinois 60439}
-% \author{B.~Srivastava}\affiliation{Purdue University, West Lafayette, Indiana 47907}
-% \author{T.~D.~S.~Stanislaus}\affiliation{Valparaiso University, Valparaiso, Indiana 46383}
-% \author{D.~J.~Stewart}\affiliation{Yale University, New Haven, Connecticut 06520}
-% \author{M.~Strikhanov}\affiliation{National Research Nuclear University MEPhI, Moscow 115409, Russia}
-% \author{B.~Stringfellow}\affiliation{Purdue University, West Lafayette, Indiana 47907}
-% \author{A.~A.~P.~Suaide}\affiliation{Universidade de S\~ao Paulo, S\~ao Paulo, Brazil 05314-970}
-% \author{T.~Sugiura}\affiliation{University of Tsukuba, Tsukuba, Ibaraki 305-8571, Japan}
-% \author{M.~Sumbera}\affiliation{Nuclear Physics Institute of the CAS, Rez 250 68, Czech Republic}
-% \author{B.~Summa}\affiliation{Pennsylvania State University, University Park, Pennsylvania 16802}
-% \author{X.~M.~Sun}\affiliation{Central China Normal University, Wuhan, Hubei 430079 }
-% \author{Y.~Sun}\affiliation{University of Science and Technology of China, Hefei, Anhui 230026}
-% \author{B.~Surrow}\affiliation{Temple University, Philadelphia, Pennsylvania 19122}
-% \author{D.~N.~Svirida}\affiliation{Alikhanov Institute for Theoretical and Experimental Physics, Moscow 117218, Russia}
-% \author{P.~Szymanski}\affiliation{Warsaw University of Technology, Warsaw 00-661, Poland}
-% \author{A.~H.~Tang}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{Z.~Tang}\affiliation{University of Science and Technology of China, Hefei, Anhui 230026}
-% \author{A.~Taranenko}\affiliation{National Research Nuclear University MEPhI, Moscow 115409, Russia}
-% \author{T.~Tarnowsky}\affiliation{Michigan State University, East Lansing, Michigan 48824}
-% \author{J.~H.~Thomas}\affiliation{Lawrence Berkeley National Laboratory, Berkeley, California 94720}
-% \author{A.~R.~Timmins}\affiliation{University of Houston, Houston, Texas 77204}
-% \author{T.~Todoroki}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{M.~Tokarev}\affiliation{Joint Institute for Nuclear Research, Dubna 141 980, Russia}
-% \author{C.~A.~Tomkiel}\affiliation{Lehigh University, Bethlehem, Pennsylvania 18015}
-% \author{S.~Trentalange}\affiliation{University of California, Los Angeles, California 90095}
-% \author{R.~E.~Tribble}\affiliation{Texas A\&M University, College Station, Texas 77843}
-% \author{P.~Tribedy}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{S.~K.~Tripathy}\affiliation{Institute of Physics, Bhubaneswar 751005, India}
-% \author{O.~D.~Tsai}\affiliation{University of California, Los Angeles, California 90095}
-% \author{B.~Tu}\affiliation{Central China Normal University, Wuhan, Hubei 430079 }
-% \author{T.~Ullrich}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{D.~G.~Underwood}\affiliation{Argonne National Laboratory, Argonne, Illinois 60439}
-% \author{I.~Upsal}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}\affiliation{Shandong University, Qingdao, Shandong 266237}
-% \author{G.~Van~Buren}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{J.~Vanek}\affiliation{Nuclear Physics Institute of the CAS, Rez 250 68, Czech Republic}
-% \author{A.~N.~Vasiliev}\affiliation{Institute of High Energy Physics, Protvino 142281, Russia}
-% \author{I.~Vassiliev}\affiliation{Frankfurt Institute for Advanced Studies FIAS, Frankfurt 60438, Germany}
-% \author{F.~Videb{\ae}k}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{S.~Vokal}\affiliation{Joint Institute for Nuclear Research, Dubna 141 980, Russia}
-% \author{S.~A.~Voloshin}\affiliation{Wayne State University, Detroit, Michigan 48201}
-% \author{A.~Vossen}\affiliation{Indiana University, Bloomington, Indiana 47408}
-% \author{F.~Wang}\affiliation{Purdue University, West Lafayette, Indiana 47907}
-% \author{G.~Wang}\affiliation{University of California, Los Angeles, California 90095}
-% \author{P.~Wang}\affiliation{University of Science and Technology of China, Hefei, Anhui 230026}
-% \author{Y.~Wang}\affiliation{Central China Normal University, Wuhan, Hubei 430079 }
-% \author{Y.~Wang}\affiliation{Tsinghua University, Beijing 100084}
-% \author{J.~C.~Webb}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{L.~Wen}\affiliation{University of California, Los Angeles, California 90095}
-% \author{G.~D.~Westfall}\affiliation{Michigan State University, East Lansing, Michigan 48824}
-% \author{H.~Wieman}\affiliation{Lawrence Berkeley National Laboratory, Berkeley, California 94720}
-% \author{S.~W.~Wissink}\affiliation{Indiana University, Bloomington, Indiana 47408}
-% \author{R.~Witt}\affiliation{United States Naval Academy, Annapolis, Maryland 21402}
-% \author{Y.~Wu}\affiliation{Kent State University, Kent, Ohio 44242}
-% \author{Z.~G.~Xiao}\affiliation{Tsinghua University, Beijing 100084}
-% \author{G.~Xie}\affiliation{University of Illinois at Chicago, Chicago, Illinois 60607}
-% \author{W.~Xie}\affiliation{Purdue University, West Lafayette, Indiana 47907}
-% \author{N.~Xu}\affiliation{Lawrence Berkeley National Laboratory, Berkeley, California 94720}
-% \author{Q.~H.~Xu}\affiliation{Shandong University, Qingdao, Shandong 266237}
-% \author{Y.~F.~Xu}\affiliation{Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800}
-% \author{Z.~Xu}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{C.~Yang}\affiliation{Shandong University, Qingdao, Shandong 266237}
-% \author{Q.~Yang}\affiliation{Shandong University, Qingdao, Shandong 266237}
-% \author{S.~Yang}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{Y.~Yang}\affiliation{National Cheng Kung University, Tainan 70101 }
-% \author{Z.~Ye}\affiliation{Rice University, Houston, Texas 77251}
-% \author{Z.~Ye}\affiliation{University of Illinois at Chicago, Chicago, Illinois 60607}
-% \author{L.~Yi}\affiliation{Shandong University, Qingdao, Shandong 266237}
-% \author{K.~Yip}\affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \author{I.~-K.~Yoo}\affiliation{Pusan National University, Pusan 46241, Korea}
-% \author{H.~Zbroszczyk}\affiliation{Warsaw University of Technology, Warsaw 00-661, Poland}
-% \author{W.~Zha}\affiliation{University of Science and Technology of China, Hefei, Anhui 230026}
-% \author{D.~Zhang}\affiliation{Central China Normal University, Wuhan, Hubei 430079 }
-% \author{J.~Zhang}\affiliation{State University of New York, Stony Brook, New York 11794}
-% \author{L.~Zhang}\affiliation{Central China Normal University, Wuhan, Hubei 430079 }
-% \author{S.~Zhang}\affiliation{University of Science and Technology of China, Hefei, Anhui 230026}
-% \author{S.~Zhang}\affiliation{Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800}
-% \author{X.~P.~Zhang}\affiliation{Tsinghua University, Beijing 100084}
-% \author{Y.~Zhang}\affiliation{University of Science and Technology of China, Hefei, Anhui 230026}
-% \author{Z.~Zhang}\affiliation{Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800}
-% \author{J.~Zhao}\affiliation{Purdue University, West Lafayette, Indiana 47907}
-% \author{C.~Zhong}\affiliation{Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800}
-% \author{C.~Zhou}\affiliation{Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800}
-% \author{X.~Zhu}\affiliation{Tsinghua University, Beijing 100084}
-% \author{Z.~Zhu}\affiliation{Shandong University, Qingdao, Shandong 266237}
-% \author{M.~K.~Zurek}\affiliation{Lawrence Berkeley National Laboratory, Berkeley, California 94720}
-% \author{M.~Zyzak}\affiliation{Frankfurt Institute for Advanced Studies FIAS, Frankfurt 60438, Germany}
-%
-% \affiliation{Abilene Christian University, Abilene, Texas   79699}
-% \affiliation{AGH University of Science and Technology, FPACS, Cracow 30-059, Poland}
-% \affiliation{Alikhanov Institute for Theoretical and Experimental Physics, Moscow 117218, Russia}
-% \affiliation{Argonne National Laboratory, Argonne, Illinois 60439}
-% \affiliation{Brookhaven National Laboratory, Upton, New York 11973}
-% \affiliation{University of California, Berkeley, California 94720}
-% \affiliation{University of California, Davis, California 95616}
-% \affiliation{University of California, Los Angeles, California 90095}
-% \affiliation{University of California, Riverside, California 92521}
-% \affiliation{Central China Normal University, Wuhan, Hubei 430079 }
-% \affiliation{University of Illinois at Chicago, Chicago, Illinois 60607}
-% \affiliation{Creighton University, Omaha, Nebraska 68178}
-% \affiliation{Czech Technical University in Prague, FNSPE, Prague 115 19, Czech Republic}
-% \affiliation{Technische Universit\"at Darmstadt, Darmstadt 64289, Germany}
-% \affiliation{E\"otv\"os Lor\'and University, Budapest, Hungary H-1117}
-% \affiliation{Frankfurt Institute for Advanced Studies FIAS, Frankfurt 60438, Germany}
-% \affiliation{Fudan University, Shanghai, 200433 }
-% \affiliation{University of Heidelberg, Heidelberg 69120, Germany }
-% \affiliation{University of Houston, Houston, Texas 77204}
-% \affiliation{Indiana University, Bloomington, Indiana 47408}
-% \affiliation{Institute of Physics, Bhubaneswar 751005, India}
-% \affiliation{University of Jammu, Jammu 180001, India}
-% \affiliation{Joint Institute for Nuclear Research, Dubna 141 980, Russia}
-% \affiliation{Kent State University, Kent, Ohio 44242}
-% \affiliation{University of Kentucky, Lexington, Kentucky 40506-0055}
-% \affiliation{Lawrence Berkeley National Laboratory, Berkeley, California 94720}
-% \affiliation{Lehigh University, Bethlehem, Pennsylvania 18015}
-% \affiliation{Max-Planck-Institut f\"ur Physik, Munich 80805, Germany}
-% \affiliation{Michigan State University, East Lansing, Michigan 48824}
-% \affiliation{National Research Nuclear University MEPhI, Moscow 115409, Russia}
-% \affiliation{National Institute of Science Education and Research, HBNI, Jatni 752050, India}
-% \affiliation{National Cheng Kung University, Tainan 70101 }
-% \affiliation{Nuclear Physics Institute of the CAS, Rez 250 68, Czech Republic}
-% \affiliation{Ohio State University, Columbus, Ohio 43210}
-% \affiliation{Institute of Nuclear Physics PAN, Cracow 31-342, Poland}
-% \affiliation{Panjab University, Chandigarh 160014, India}
-% \affiliation{Pennsylvania State University, University Park, Pennsylvania 16802}
-% \affiliation{Institute of High Energy Physics, Protvino 142281, Russia}
-% \affiliation{Purdue University, West Lafayette, Indiana 47907}
-% \affiliation{Pusan National University, Pusan 46241, Korea}
-% \affiliation{Rice University, Houston, Texas 77251}
-% \affiliation{Rutgers University, Piscataway, New Jersey 08854}
-% \affiliation{Universidade de S\~ao Paulo, S\~ao Paulo, Brazil 05314-970}
-% \affiliation{University of Science and Technology of China, Hefei, Anhui 230026}
-% \affiliation{Shandong University, Qingdao, Shandong 266237}
-% \affiliation{Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800}
-% \affiliation{Southern Connecticut State University, New Haven, Connecticut 06515}
-% \affiliation{State University of New York, Stony Brook, New York 11794}
-% \affiliation{Temple University, Philadelphia, Pennsylvania 19122}
-% \affiliation{Texas A\&M University, College Station, Texas 77843}
-% \affiliation{University of Texas, Austin, Texas 78712}
-% \affiliation{Tsinghua University, Beijing 100084}
-% \affiliation{University of Tsukuba, Tsukuba, Ibaraki 305-8571, Japan}
-% \affiliation{United States Naval Academy, Annapolis, Maryland 21402}
-% \affiliation{Valparaiso University, Valparaiso, Indiana 46383}
-% \affiliation{Variable Energy Cyclotron Centre, Kolkata 700064, India}
-% \affiliation{Warsaw University of Technology, Warsaw 00-661, Poland}
-% \affiliation{Wayne State University, Detroit, Michigan 48201}
-% \affiliation{Yale University, New Haven, Connecticut 06520}
-
-%IOP journal format
-\author{
-J.~Adam$^{12}$,
-L.~Adamczyk$^{2}$,
-J.~R.~Adams$^{34}$,
-J.~K.~Adkins$^{25}$,
-G.~Agakishiev$^{23}$,
-M.~M.~Aggarwal$^{36}$,
-Z.~Ahammed$^{56}$,
-I.~Alekseev$^{3,30}$,
-D.~M.~Anderson$^{50}$,
-R.~Aoyama$^{53}$,
-A.~Aparin$^{23}$,
-D.~Arkhipkin$^{5}$,
-E.~C.~Aschenauer$^{5}$,
-M.~U.~Ashraf$^{52}$,
-F.~Atetalla$^{24}$,
-A.~Attri$^{36}$,
-G.~S.~Averichev$^{23}$,
-V.~Bairathi$^{31}$,
-K.~Barish$^{9}$,
-A.~J.~Bassill$^{9}$,
-A.~Behera$^{48}$,
-R.~Bellwied$^{19}$,
-A.~Bhasin$^{22}$,
-A.~K.~Bhati$^{36}$,
-J.~Bielcik$^{13}$,
-J.~Bielcikova$^{33}$,
-L.~C.~Bland$^{5}$,
-I.~G.~Bordyuzhin$^{3}$,
-J.~D.~Brandenburg$^{5}$,
-A.~V.~Brandin$^{30}$,
-D.~Brown$^{27}$,
-J.~Bryslawskyj$^{9}$,
-I.~Bunzarov$^{23}$,
-J.~Butterworth$^{41}$,
-H.~Caines$^{59}$,
-M.~Calder{\'o}n~de~la~Barca~S{\'a}nchez$^{7}$,
-D.~Cebra$^{7}$,
-I.~Chakaberia$^{24,45}$,
-P.~Chaloupka$^{13}$,
-B.~K.~Chan$^{8}$,
-F-H.~Chang$^{32}$,
-Z.~Chang$^{5}$,
-N.~Chankova-Bunzarova$^{23}$,
-A.~Chatterjee$^{56}$,
-S.~Chattopadhyay$^{56}$,
-J.~H.~Chen$^{46}$,
-X.~Chen$^{44}$,
-J.~Cheng$^{52}$,
-M.~Cherney$^{12}$,
-W.~Christie$^{5}$,
-G.~Contin$^{26}$,
-H.~J.~Crawford$^{6}$,
-M.~Csanad$^{15}$,
-S.~Das$^{10}$,
-T.~G.~Dedovich$^{23}$,
-I.~M.~Deppner$^{18}$,
-A.~A.~Derevschikov$^{38}$,
-L.~Didenko$^{5}$,
-C.~Dilks$^{37}$,
-X.~Dong$^{26}$,
-J.~L.~Drachenberg$^{1}$,
-J.~C.~Dunlop$^{5}$,
-T.~Edmonds$^{39}$,
-L.~G.~Efimov$^{23}$,
-N.~Elsey$^{58}$,
-J.~Engelage$^{6}$,
-G.~Eppley$^{41}$,
-R.~Esha$^{8}$,
-S.~Esumi$^{53}$,
-O.~Evdokimov$^{11}$,
-J.~Ewigleben$^{27}$,
-O.~Eyser$^{5}$,
-R.~Fatemi$^{25}$,
-S.~Fazio$^{5}$,
-P.~Federic$^{33}$,
-J.~Fedorisin$^{23}$,
-P.~Filip$^{23}$,
-E.~Finch$^{47}$,
-Y.~Fisyak$^{5}$,
-C.~E.~Flores$^{7}$,
-L.~Fulek$^{2}$,
-C.~A.~Gagliardi$^{50}$,
-T.~Galatyuk$^{14}$,
-F.~Geurts$^{41}$,
-A.~Gibson$^{55}$,
-L.~Greiner$^{26}$,
-D.~Grosnick$^{55}$,
-D.~S.~Gunarathne$^{49}$,
-Y.~Guo$^{24}$,
-A.~Gupta$^{22}$,
-W.~Guryn$^{5}$,
-A.~I.~Hamad$^{24}$,
-A.~Hamed$^{50}$,
-A.~Harlenderova$^{13}$,
-J.~W.~Harris$^{59}$,
-L.~He$^{39}$,
-S.~Heppelmann$^{7}$,
-S.~Heppelmann$^{37}$,
-N.~Herrmann$^{18}$,
-A.~Hirsch$^{39}$,
-L.~Holub$^{13}$,
-Y.~Hong$^{26}$,
-S.~Horvat$^{59}$,
-B.~Huang$^{11}$,
-H.~Z.~Huang$^{8}$,
-S.~L.~Huang$^{48}$,
-T.~Huang$^{32}$,
-X.~ Huang$^{52}$,
-T.~J.~Humanic$^{34}$,
-P.~Huo$^{48}$,
-G.~Igo$^{8}$,
-W.~W.~Jacobs$^{20}$,
-A.~Jentsch$^{51}$,
-J.~Jia$^{5,48}$,
-K.~Jiang$^{44}$,
-S.~Jowzaee$^{58}$,
-X.~Ju$^{44}$,
-E.~G.~Judd$^{6}$,
-S.~Kabana$^{24}$,
-S.~Kagamaster$^{27}$,
-D.~Kalinkin$^{20}$,
-K.~Kang$^{52}$,
-D.~Kapukchyan$^{9}$,
-K.~Kauder$^{5}$,
-H.~W.~Ke$^{5}$,
-D.~Keane$^{24}$,
-A.~Kechechyan$^{23}$,
-M.~Kelsey$^{26}$,
-D.~P.~Kiko\l{}a~$^{57}$,
-C.~Kim$^{9}$,
-T.~A.~Kinghorn$^{7}$,
-I.~Kisel$^{16}$,
-A.~Kisiel$^{57}$,
-M.~Kocan$^{13}$,
-L.~Kochenda$^{30}$,
-L.~K.~Kosarzewski$^{13}$,
-A.~F.~Kraishan$^{49}$,
-L.~Kramarik$^{13}$,
-L.~Krauth$^{9}$,
-P.~Kravtsov$^{30}$,
-K.~Krueger$^{4}$,
-N.~Kulathunga~Mudiyanselage$^{19}$,
-L.~Kumar$^{36}$,
-R.~Kunnawalkam~Elayavalli$^{58}$,
-J.~Kvapil$^{13}$,
-J.~H.~Kwasizur$^{20}$,
-R.~Lacey$^{48}$,
-J.~M.~Landgraf$^{5}$,
-J.~Lauret$^{5}$,
-A.~Lebedev$^{5}$,
-R.~Lednicky$^{23}$,
-J.~H.~Lee$^{5}$,
-C.~Li$^{44}$,
-W.~Li$^{46}$,
-W.~Li$^{41}$,
-X.~Li$^{44}$,
-Y.~Li$^{52}$,
-Y.~Liang$^{24}$,
-R.~Licenik$^{13}$,
-J.~Lidrych$^{13}$,
-T.~Lin$^{50}$,
-A.~Lipiec$^{57}$,
-M.~A.~Lisa$^{34}$,
-F.~Liu$^{10}$,
-H.~Liu$^{20}$,
-P.~ Liu$^{48}$,
-P.~Liu$^{46}$,
-X.~Liu$^{34}$,
-Y.~Liu$^{50}$,
-Z.~Liu$^{44}$,
-T.~Ljubicic$^{5}$,
-W.~J.~Llope$^{58}$,
-M.~Lomnitz$^{26}$,
-R.~S.~Longacre$^{5}$,
-S.~Luo$^{11}$,
-X.~Luo$^{10}$,
-G.~L.~Ma$^{46}$,
-L.~Ma$^{17}$,
-R.~Ma$^{5}$,
-Y.~G.~Ma$^{46}$,
-N.~Magdy$^{11}$,
-R.~Majka$^{59}$,
-D.~Mallick$^{31}$,
-S.~Margetis$^{24}$,
-C.~Markert$^{51}$,
-H.~S.~Matis$^{26}$,
-O.~Matonoha$^{13}$,
-J.~A.~Mazer$^{42}$,
-K.~Meehan$^{7}$,
-J.~C.~Mei$^{45}$,
-N.~G.~Minaev$^{38}$,
-S.~Mioduszewski$^{50}$,
-D.~Mishra$^{31}$,
-B.~Mohanty$^{31}$,
-M.~M.~Mondal$^{21}$,
-I.~Mooney$^{58}$,
-Z.~Moravcova$^{13}$,
-D.~A.~Morozov$^{38}$,
-M.~Mustafa$^{26}$,
-Md.~Nasim$^{8}$,
-K.~Nayak$^{10}$,
-J.~M.~Nelson$^{6}$,
-D.~B.~Nemes$^{59}$,
-M.~Nie$^{46}$,
-G.~Nigmatkulov$^{30}$,
-T.~Niida$^{58}$,
-L.~V.~Nogach$^{38}$,
-T.~Nonaka$^{10}$,
-G.~Odyniec$^{26}$,
-A.~Ogawa$^{5}$,
-K.~Oh$^{40}$,
-S.~Oh$^{59}$,
-V.~A.~Okorokov$^{30}$,
-D.~Olvitt~Jr.$^{49}$,
-B.~S.~Page$^{5}$,
-R.~Pak$^{5}$,
-Y.~Panebratsev$^{23}$,
-B.~Pawlik$^{35}$,
-H.~Pei$^{10}$,
-C.~Perkins$^{6}$,
-R.~L.~Pinter$^{15}$,
-J.~Pluta$^{57}$,
-J.~Porter$^{26}$,
-M.~Posik$^{49}$,
-N.~K.~Pruthi$^{36}$,
-M.~Przybycien$^{2}$,
-J.~Putschke$^{58}$,
-A.~Quintero$^{49}$,
-H.~Qiu$^{26}$,
-S.~K.~Radhakrishnan$^{26}$,
-R.~L.~Ray$^{51}$,
-R.~Reed$^{27}$,
-H.~G.~Ritter$^{26}$,
-J.~B.~Roberts$^{41}$,
-O.~V.~Rogachevskiy$^{23}$,
-J.~L.~Romero$^{7}$,
-L.~Ruan$^{5}$,
-J.~Rusnak$^{33}$,
-O.~Rusnakova$^{13}$,
-N.~R.~Sahoo$^{50}$,
-P.~K.~Sahu$^{21}$,
-S.~Salur$^{42}$,
-J.~Sandweiss$^{59}$,
-J.~Schambach$^{51}$,
-A.~M.~Schmah$^{26}$,
-W.~B.~Schmidke$^{5}$,
-N.~Schmitz$^{28}$,
-B.~R.~Schweid$^{48}$,
-F.~Seck$^{14}$,
-J.~Seger$^{12}$,
-M.~Sergeeva$^{8}$,
-R.~ Seto$^{9}$,
-P.~Seyboth$^{28}$,
-N.~Shah$^{46}$,
-E.~Shahaliev$^{23}$,
-P.~V.~Shanmuganathan$^{27}$,
-M.~Shao$^{44}$,
-F.~Shen$^{45}$,
-W.~Q.~Shen$^{46}$,
-S.~S.~Shi$^{10}$,
-Q.~Y.~Shou$^{46}$,
-E.~P.~Sichtermann$^{26}$,
-S.~Siejka$^{57}$,
-R.~Sikora$^{2}$,
-M.~Simko$^{33}$,
-JSingh$^{36}$,
-S.~Singha$^{24}$,
-D.~Smirnov$^{5}$,
-N.~Smirnov$^{59}$,
-W.~Solyst$^{20}$,
-P.~Sorensen$^{5}$,
-H.~M.~Spinka$^{4}$,
-B.~Srivastava$^{39}$,
-T.~D.~S.~Stanislaus$^{55}$,
-D.~J.~Stewart$^{59}$,
-M.~Strikhanov$^{30}$,
-B.~Stringfellow$^{39}$,
-A.~A.~P.~Suaide$^{43}$,
-T.~Sugiura$^{53}$,
-M.~Sumbera$^{33}$,
-B.~Summa$^{37}$,
-X.~M.~Sun$^{10}$,
-Y.~Sun$^{44}$,
-B.~Surrow$^{49}$,
-D.~N.~Svirida$^{3}$,
-M.~Szelezniak$^{26}$,
-P.~Szymanski$^{57}$,
-A.~H.~Tang$^{5}$,
-Z.~Tang$^{44}$,
-A.~Taranenko$^{30}$,
-T.~Tarnowsky$^{29}$,
-J.~H.~Thomas$^{26}$,
-A.~R.~Timmins$^{19}$,
-T.~Todoroki$^{5}$,
-M.~Tokarev$^{23}$,
-C.~A.~Tomkiel$^{27}$,
-S.~Trentalange$^{8}$,
-R.~E.~Tribble$^{50}$,
-P.~Tribedy$^{5}$,
-S.~K.~Tripathy$^{21}$,
-O.~D.~Tsai$^{8}$,
-B.~Tu$^{10}$,
-T.~Ullrich$^{5}$,
-D.~G.~Underwood$^{4}$,
-I.~Upsal$^{5,45}$,
-G.~Van~Buren$^{5}$,
-J.~Vanek$^{33}$,
-A.~N.~Vasiliev$^{38}$,
-I.~Vassiliev$^{16}$,
-F.~Videb{\ae}k$^{5}$,
-S.~Vokal$^{23}$,
-S.~A.~Voloshin$^{58}$,
-A.~Vossen$^{20}$,
-F.~Wang$^{39}$,
-G.~Wang$^{8}$,
-P.~Wang$^{44}$,
-Y.~Wang$^{10}$,
-Y.~Wang$^{52}$,
-J.~C.~Webb$^{5}$,
-L.~Wen$^{8}$,
-G.~D.~Westfall$^{29}$,
-H.~Wieman$^{26}$,
-S.~W.~Wissink$^{20}$,
-R.~Witt$^{54}$,
-Y.~Wu$^{24}$,
-Z.~G.~Xiao$^{52}$,
-G.~Xie$^{11}$,
-W.~Xie$^{39}$,
-N.~Xu$^{26}$,
-Q.~H.~Xu$^{45}$,
-Y.~F.~Xu$^{46}$,
-Z.~Xu$^{5}$,
-C.~Yang$^{45}$,
-Q.~Yang$^{45}$,
-S.~Yang$^{5}$,
-Y.~Yang$^{32}$,
-Z.~Ye$^{41}$,
-Z.~Ye$^{11}$,
-L.~Yi$^{45}$,
-K.~Yip$^{5}$,
-I.~-K.~Yoo$^{40}$,
-H.~Zbroszczyk$^{57}$,
-W.~Zha$^{44}$,
-D.~Zhang$^{10}$,
-J.~Zhang$^{48}$,
-L.~Zhang$^{10}$,
-S.~Zhang$^{44}$,
-S.~Zhang$^{46}$,
-X.~P.~Zhang$^{52}$,
-Y.~Zhang$^{44}$,
-Z.~Zhang$^{46}$,
-J.~Zhao$^{39}$,
-C.~Zhong$^{46}$,
-C.~Zhou$^{46}$,
-X.~Zhu$^{52}$,
-Z.~Zhu$^{45}$,
-M.~K.~Zurek$^{26}$,
-M.~Zyzak$^{16}$
-}
-
-\address{$^{1}$Abilene Christian University, Abilene, Texas   79699}
-\address{$^{2}$AGH University of Science and Technology, FPACS, Cracow 30-059, Poland}
-\address{$^{3}$Alikhanov Institute for Theoretical and Experimental Physics, Moscow 117218, Russia}
-\address{$^{4}$Argonne National Laboratory, Argonne, Illinois 60439}
-\address{$^{5}$Brookhaven National Laboratory, Upton, New York 11973}
-\address{$^{6}$University of California, Berkeley, California 94720}
-\address{$^{7}$University of California, Davis, California 95616}
-\address{$^{8}$University of California, Los Angeles, California 90095}
-\address{$^{9}$University of California, Riverside, California 92521}
-\address{$^{10}$Central China Normal University, Wuhan, Hubei 430079 }
-\address{$^{11}$University of Illinois at Chicago, Chicago, Illinois 60607}
-\address{$^{12}$Creighton University, Omaha, Nebraska 68178}
-\address{$^{13}$Czech Technical University in Prague, FNSPE, Prague 115 19, Czech Republic}
-\address{$^{14}$Technische Universit\"at Darmstadt, Darmstadt 64289, Germany}
-\address{$^{15}$E\"otv\"os Lor\'and University, Budapest, Hungary H-1117}
-\address{$^{16}$Frankfurt Institute for Advanced Studies FIAS, Frankfurt 60438, Germany}
-\address{$^{17}$Fudan University, Shanghai, 200433 }
-\address{$^{18}$University of Heidelberg, Heidelberg 69120, Germany }
-\address{$^{19}$University of Houston, Houston, Texas 77204}
-\address{$^{20}$Indiana University, Bloomington, Indiana 47408}
-\address{$^{21}$Institute of Physics, Bhubaneswar 751005, India}
-\address{$^{22}$University of Jammu, Jammu 180001, India}
-\address{$^{23}$Joint Institute for Nuclear Research, Dubna 141 980, Russia}
-\address{$^{24}$Kent State University, Kent, Ohio 44242}
-\address{$^{25}$University of Kentucky, Lexington, Kentucky 40506-0055}
-\address{$^{26}$Lawrence Berkeley National Laboratory, Berkeley, California 94720}
-\address{$^{27}$Lehigh University, Bethlehem, Pennsylvania 18015}
-\address{$^{28}$Max-Planck-Institut f\"ur Physik, Munich 80805, Germany}
-\address{$^{29}$Michigan State University, East Lansing, Michigan 48824}
-\address{$^{30}$National Research Nuclear University MEPhI, Moscow 115409, Russia}
-\address{$^{31}$National Institute of Science Education and Research, HBNI, Jatni 752050, India}
-\address{$^{32}$National Cheng Kung University, Tainan 70101 }
-\address{$^{33}$Nuclear Physics Institute of the CAS, Rez 250 68, Czech Republic}
-\address{$^{34}$Ohio State University, Columbus, Ohio 43210}
-\address{$^{35}$Institute of Nuclear Physics PAN, Cracow 31-342, Poland}
-\address{$^{36}$Panjab University, Chandigarh 160014, India}
-\address{$^{37}$Pennsylvania State University, University Park, Pennsylvania 16802}
-\address{$^{38}$Institute of High Energy Physics, Protvino 142281, Russia}
-\address{$^{39}$Purdue University, West Lafayette, Indiana 47907}
-\address{$^{40}$Pusan National University, Pusan 46241, Korea}
-\address{$^{41}$Rice University, Houston, Texas 77251}
-\address{$^{42}$Rutgers University, Piscataway, New Jersey 08854}
-\address{$^{43}$Universidade de S\~ao Paulo, S\~ao Paulo, Brazil 05314-970}
-\address{$^{44}$University of Science and Technology of China, Hefei, Anhui 230026}
-\address{$^{45}$Shandong University, Qingdao, Shandong 266237}
-\address{$^{46}$Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800}
-\address{$^{47}$Southern Connecticut State University, New Haven, Connecticut 06515}
-\address{$^{48}$State University of New York, Stony Brook, New York 11794}
-\address{$^{49}$Temple University, Philadelphia, Pennsylvania 19122}
-\address{$^{50}$Texas A\&M University, College Station, Texas 77843}
-\address{$^{51}$University of Texas, Austin, Texas 78712}
-\address{$^{52}$Tsinghua University, Beijing 100084}
-\address{$^{53}$University of Tsukuba, Tsukuba, Ibaraki 305-8571, Japan}
-\address{$^{54}$United States Naval Academy, Annapolis, Maryland 21402}
-\address{$^{55}$Valparaiso University, Valparaiso, Indiana 46383}
-\address{$^{56}$Variable Energy Cyclotron Centre, Kolkata 700064, India}
-\address{$^{57}$Warsaw University of Technology, Warsaw 00-661, Poland}
-\address{$^{58}$Wayne State University, Detroit, Michigan 48201}
-\address{$^{59}$Yale University, New Haven, Connecticut 06520}
-
+%\affiliation{% Authors' institution and/or address\\ This line break forced with \textbackslash\textbackslash
+%}%
 
 \collaboration{STAR Collaboration}
 \noaffiliation
@@ -1084,14 +272,14 @@ $|\Delta 1/\beta|$ (if $\beta>0$)     & $<$ & 0.03 & 0.03 \\ \hline \hline
 
 With a pair of two daughter tracks, pion and kaon, the $D^0$ decay vertex is reconstructed as the middle point on the distance of the closet approach between the two daughter trajectories. The background is mainly due to the random combination of the fake pairs directly from the collision point. With the following topological variables, the background can be greatly reduced.
 
-\begin{itemize}
+ \begin{itemize} 
   \item Decay Length: the distance between the reconstructed decay vertex and the primary vertex (PV).
   \item Distance of Closest Approach (DCA) between the 2 daughter tracks. ($\rm DCA_{12}$)
   \item DCA between reconstructed $D^0$ and the PV. ($\rm DCA_{D^{0}}$)
   \item DCA between the pion and the PV. ($\rm DCA_{\pi}$)
   \item DCA between the kaon and the PV. ($\rm DCA_{K}$)
   \item Angle between $D^0$ momentum and the line between the reconstructed decay vertex and the PV. ($\theta$)
-\end{itemize}
+ \end{itemize} 
 
 The carton Fig.~\ref{fig:D0carton} also shows the topological variables used in the analysis, where $\vec{P}$ represent the $D^0$ momentum. The Decay Length and cos($\theta$) follow the formula : $\rm DCA_{D^{0}}$ = Decay Length $\times$ sin($\theta$). The cuts on the topological variables for this analysis are optimized using a Toolkit for Multivariate Data Analysis (TMVA) package in order to have the greatest signal significance. We explored several different discrimination methods in the TMVA package and the Rectangular cut optimisation method is chosen for best signal significance estimation. The optimization is conducted for different $D^0$ $p_{\rm T}$ bins and difference centrality bins. Table~\ref{table:topocut} lists a typical set of topological cuts for 0-10\% central Au+Au collisions.
 
@@ -1190,11 +378,11 @@ Since the performance of the HFT changes with time, in order to fully capture th
 % \end{equation}
 
 To best represent the detector real performance, we obtain the following distributions from real data in this Monte Carlo approach.
-\begin{itemize}
+ \begin{itemize} 
 \item Centrality-dependent $\textup{V}_\textup{z}$ distributions.
 \item Ratios of HFT matched tracks to TPC tracks, including the dependence on particle species, centrality, $p_T$, $\eta$, $\phi$, and $\textup{V}_\textup{z}$.
 \item $\textup{DCA}_{\textup{XY}}$ - $\textup{DCA}_{\textup{Z}}$ 2-dimension (2D) distributions including the dependence on particle species, centrality, $p_T$, $\eta$, and $\textup{V}_\textup{z}$.
-\end{itemize}
+ \end{itemize} 
 The $\textup{DCA}_{\textup{XY}}$ - $\textup{DCA}_{\textup{Z}}$ 2D distributions are the key to represent not only the right matches, but also the fake matches when connecting the TPC tracks with HFT hits. The distributions are obtained in 2D to consider the correlation between the two quantities and therefore to reproduce the 3D DCA position distributions. The $\phi$ dependence of these distributions are integrated over due to computing resource limits, but we have checked the $\phi$ dependence (by reducing other dependences for the same reason) and it produces a consistent efficiency result compared to the $\phi$-degenerated result we use here as the default.
 
 In total, there are 11 ($\phi$) $\times$ 10 ($\eta$) $\times$ 6 ($\textup{V}_\textup{z}$) $\times$ 9 (centrality) $\times$ 2 (particles) 1D histograms (36 $p_T$ bins each) used for the HFT match ratio distributions and 5 ($\eta$) $\times$ 4 ($\textup{V}_\textup{z}$) $\times$ 9 (centrality) $\times$ 2 (particles) $\times$ 19 ($p_T$) 2D histograms (144 $\times$ 144 DCA binning) for 2D DCA distributions. The number of bins chosen is optimized to balance the need of computing resources as well as the stability of the final efficiency. All dimensions have been checked so that further increase in the number of bins (in balance we need to reduce the number of bins in other dimensions)  will not change the final obtained efficiency.
@@ -1202,7 +390,7 @@ In total, there are 11 ($\phi$) $\times$ 10 ($\eta$) $\times$ 6 ($\textup{V}_\te
 The procedure for this data-driven simulation package for efficiency calculation is as follows:
 
 % After all the input ingredients ready for the fast-simulation, a simple toy MC simulation (PYTHIA) is applied for the efficiency study. The basic recipe is following:
-\begin{itemize}
+ \begin{itemize} 
 \item Sample $\textup{V}_\textup{z}$ distribution according to data distribution.
 \item Generate $D^0$ at the event vertex position with desired $p_T$ (levy shape fitted to $D^0$ spectra) and rapidity (flat) distributions.
 \item Let $D^0$ fly and decay to $K^-\pi^+$ daughters following the decay probability.
@@ -1210,7 +398,7 @@ The procedure for this data-driven simulation package for efficiency calculation
 \item Smear daughter track starting position according to the $\textup{DCA}_{\textup{XY}}$-$\textup{DCA}_\textup{Z}$ 2D distributions from the reconstructed data.
 \item Apply HFT matching efficiency according to the HFT matching ratio distribution from the reconstructed data.
 \item Do the topological reconstruction of $D^0$ decay vertices with the same cuts as applied in data.
-\end{itemize}
+ \end{itemize} 
 The distributions used as input can be obtained from real data or reconstructed data in MC simulation. The later is used when we will be going to validate this approach with the MC GEANT simulation. 
 
 This approach assumes these distributions obtained from real data are good representations for tracks produced at or close to the primary vertices. The impact of the secondary particle contribution will be discussed in Sec.~\ref{sec:correction:hft:secondary}. The approach also neglects the finite event vertex resolution contribution which will be discussed in Sec.~\ref{sec:correction:vtx}.
@@ -1297,7 +485,7 @@ Figure~\ref{fig:Datad0Eff_hftTopo} shows the HFT tracking and topological cut ef
 
 In the data-driven method for obtaining the efficiency correction, inclusive pion and kaon distributions are taken from real data as the input. There is a small amount of secondary contribution (e.g. weak decays from $K^0_S$ and $\Lambda$) to the measured charged pion tracks.
 
-The impact of secondary particle contribution to the charged pions is studied using the Hijing events processed through the GEANT simulation and the same offline reconstruction. The fraction of secondary pions from weak decay of strange hadrons ($K^0_S$ and $\Lambda$) to the total inclusive charged pions within ${\rm DCA}<$ 1.5\,cm cut is estimated to be around 5\% at pion $p_{\rm T}$ = 0.3\,GeV/$c$ and decrease to be $<2\%$ above 2\,GeV/$c$. This is consistent with what is observed before in measuring the prompt charged pion spectra~\cite{Adams:2003xp}. There is another finite contribution of low momentum anti-protons and anti-neutrons annihilated in the detector material and producing secondary pions. The transverse momenta of these pions are mostly around 2--3\,GeV/$c$ and the fraction of total inclusive pions is $\sim$ 10--12\% at $p_{\rm T}=$ 2--3\,GeV/$c$ based on this simulation and contribute $\sim$ 5--8\% to the HFT matching ratio. This was obtained using the GEANT with GHEISHA hadronic package. With a different hadronic package, FLUKA, the secondary pion fraction in 2--3\,GeV/$c$ region is significantly reduced to be negligible. The difference between the primary pions and the inclusive pions in the HFT matching ratio has been considered as one additional correction factor to take into account these secondary pions in our data-driven simulation method when calculating the efficiency correction, while the maximum difference with respect to the result obtained using the GHEISHA hadronic package is included as the systematic uncertainty for this source.  Fig.~\ref{fig:Fraction_Pion} shows the secondary pion contribution in Au + Au collisions at $\sqrt{s_{_{\rm NN}}}$ = 200\,GeV. Panel (a) shows the fraction of different sources for secondary tracks including the weak decays, the scatters and the annihilation. Panel (b) shows the different contributions to the HFT match ratio while panel (c) is the HFT match double ratio which divide the inclusive one to the primary ones. The effect of such secondary contribution to charged kaons is negligible~\cite{Adams:2003xp}.
+The impact of secondary particle contribution to the charged pions is studied using the Hijing events processed through the GEANT simulation and the same offline reconstruction. The fraction of secondary pions from weak decay of strange hadrons ($K^0_S$ and $\Lambda$) to the total inclusive charged pions within ${\rm DCA}<$ 1.5\,cm cut is estimated to be around 5\% at pion $p_{\rm T}$ = 0.3\,GeV/$c$ and decrease to be $<2\%$ above 2\,GeV/$c$. This is consistent with what is observed before in measuring the prompt charged pion spectra~\cite{Adams:2003xp}. There is another finite contribution of low momentum anti-protons and anti-neutrons annihilated in the detector material and producing secondary pions. The transverse momenta of these pions are mostly around 2--3\,GeV/$c$ and the fraction of total inclusive pions is $\sim$ 10--12\% at $p_{\rm T}=$ 2--3\,GeV/$c$ based on this simulation and contribute $\sim$ 5--8\% to the HFT matching ratio. \DIFaddbegin \DIFadd{This was obtained using the GEANT with GHEISHA hadronic package. With a difference hadronic package, FLUKA, the secondary pion fraction in 2--3\,GeV/$c$ region is significantly reduced to be negligible. }\DIFaddend The difference between the primary pions and the inclusive pions in the HFT matching ratio has been considered as one additional correction factor to take into account these secondary pions in our data-driven simulation method when calculating the efficiency correction\DIFaddbegin \DIFadd{, while the maximum difference with respect to the result obtained using the GHEISHA hadronic package is included as the systematic uncertainty for this source}\DIFaddend .  Fig.~\ref{fig:Fraction_Pion} shows the secondary pion contribution in Au + Au collisions at $\sqrt{s_{_{\rm NN}}}$ = 200\,GeV. Panel (a) shows the fraction of different sources for secondary tracks including the weak decays, the scatters and the annihilation. Panel (b) shows the different contributions to the HFT match ratio while panel (c) is the HFT match double ratio which divide the inclusive one to the primary ones. The effect of such secondary contribution to charged kaons is negligible~\cite{Adams:2003xp}.
 
 \subsection{\label{sec:correction:vtx}Vertex Resolution Correction - $\varepsilon_{\rm vtx}$}
 
@@ -1326,7 +514,7 @@ The MC simulation reproduces the vertex difference distributions seen in the rea
 \label{fig:Mcd0Eff_20_80_vsCent} 
 \end{figure}
 
-To estimate the vertex resolution effect, we embedded a PYTHIA $c\bar{c}$ event into a Hijing Au+Au event, and ran through the STAR GEANT simulation followed by the same offline reconstruction as in the real data production. The PYTHIA $c\bar{c}$ events are pre-selected to have at least one $D^0\rightarrow K^-\pi^+$ decay or its charge conjugate to enhance the statistics. Figure~\ref{fig:Mcd0Eff_20_80} shows the comparison in the obtained $D^0$ reconstruction efficiency between MC simulation $(black)$ and data-driven simulation using reconstructed distributions in the same MC sample as input $(red)$ for 20--30\%(left), 50--60\%(middle) and 70--80\%(right) centrality bins, respectively. The bottom panels show the ratios of the efficiencies obtained from the two calculation methods. In the central and mid-central collisions, the data-driven simulation method can well reproduce the $D^0$ real reconstruction efficiency. This is as expected since the vertex resolution is small so that it has less impact in the obtained efficiency using the data-driven simulation method. However, in more peripheral collisions, the data-driven simulation method underestimates the $D^0$ reconstruction efficiency as shown in the middle and right panels. The ratio between the two methods, the vertex resolution correction factor $\varepsilon_{\rm vtx}$ denoted in Equ.~\ref{equ:invariantyield}, has a mild $p_{\rm T}$ dependence, but shows a strong centrality dependence shown in Fig.~\ref{fig:Mcd0Eff_20_80_vsCent}, which is the $\varepsilon_{\rm vtx}$ correction factor along different centralities for $p_T$ around 2 and 4 GeV/$c$. The brackets denote the systematic uncertainties in the obtained correction factor $\varepsilon_{\rm vtx}$. They are estimated by tuning the Hijing + GEANT simulation so that the sub-event vertex difference distributions in the real data can be covered by distributions obtained from different simulation samples. The vertex resolution corrections are applied in each individual centralities along with the $p_T$ dependence.
+\DIFaddbegin \DIFadd{To estimate the vertex resolution effect, we embedded a PYTHIA $c\bar{c}$ event into a Hijing Au+Au event, and ran through the STAR GEANT simulation followed by the same offline reconstruction as in the real data production. The PYTHIA $c\bar{c}$ events are pre-selected to have at least one $D^0\rightarrow K^-\pi^+$ decay or its charge conjugate to enhance the statistics. }\DIFaddend Figure~\ref{fig:Mcd0Eff_20_80} shows the comparison in the obtained $D^0$ reconstruction efficiency between MC simulation $(black)$ and data-driven simulation using reconstructed distributions in the same MC sample as input $(red)$ for 20--30\%(left), 50--60\%(middle) and 70--80\%(right) centrality bins, respectively. The bottom panels show the ratios of the efficiencies obtained from the two calculation methods. In the central and mid-central collisions, the data-driven simulation method can well reproduce the $D^0$ real reconstruction efficiency. This is as expected since the vertex resolution is small so that it has less impact in the obtained efficiency using the data-driven simulation method. However, in more peripheral collisions, the data-driven simulation method underestimates the $D^0$ reconstruction efficiency as shown in the middle and right panels. The ratio between the two methods, the vertex resolution correction factor $\varepsilon_{\rm vtx}$ denoted in Equ.~\ref{equ:invariantyield}, has a mild $p_{\rm T}$ dependence, but shows a strong centrality dependence shown in Fig.~\ref{fig:Mcd0Eff_20_80_vsCent}, which is the $\varepsilon_{\rm vtx}$ correction factor along different centralities for $p_T$ around 2 and 4 GeV/$c$. The brackets denote the systematic uncertainties in the obtained correction factor $\varepsilon_{\rm vtx}$. They are estimated by tuning the Hijing + GEANT simulation so that the sub-event vertex difference distributions in the real data can be covered by distributions obtained from different simulation samples. The vertex resolution corrections are applied in each individual centralities along with the $p_T$ dependence.
 
 \subsection{\label{sec:correction:PID}PID Efficiency - $\varepsilon_{\rm PID}$ and Doubly-mis-PID Correction}
 
@@ -1340,7 +528,7 @@ To estimate the vertex resolution effect, we embedded a PYTHIA $c\bar{c}$ event 
 
 \begin{figure}
 \centering
-\includegraphics[width=0.45\textwidth]{fig/Double_counting.pdf}
+\includegraphics[width=0.43\textwidth]{fig/Double_counting.pdf}
 \caption{$D^{0}$ yield double counting fraction due to doubly mis-PID in different centrality classes in Au + Au collisions at $\sqrt{s_{_{\rm NN}}}$ = 200\,GeV. The black markers depict an estimation taking the total double counting yield in the $D^0$ mass window while the blue markers depict an estimation with an additional side-band (SB) subtraction.}
 \label{fig:Datad0Eff_doublecounting} 
 \end{figure}
@@ -1349,12 +537,10 @@ The $D^0$ daughter particle identification (PID) cut efficiency includes contrib
 
 When the $D^0$ daughter kaon track is mis-identified as a pion track and the other daughter pion track is mis-identified as a kaon track, the pair invariant mass distribution will have a bump structure around the real $D^0$ signal peak, but the distribution is much broader in a wide mass region due to the mis-assigned daughter particle masses. Based on the PID  performance study described above, we estimate the single kaon and pion candidate track purities. After folding the realistic particle momentum resolution, we calculate the reconstructed $D^0$ yield from doubly mis-identified pairs (double counting) underneath the real $D^0$ signal and the double counting fraction is shown in Fig.~\ref{fig:Datad0Eff_doublecounting}. The black markers show the fraction by taking all doubly mis-identified pairs in the $D^0$ mass window while the blue markers depict that with an additional side-band (SB) subtraction. The latter is used as a correction factor to the central values of reported $D^0$ yields while the difference between the black and blue symbols are considered as the systematic uncertainty in this source. The double counting fraction is below 10\% in all $p_{\rm T}$ bins, and also there is little centrality dependence.
 
-Figure~\ref{fig:Datad0Eff} shows the total $D^{0}$ reconstruction efficiency from different centrality classes in Au + Au collisions at $\sqrt{s_{_{\rm NN}}}$ = 200\,GeV includes each individual complement discussed above.
-
 \begin{figure}
 \centering
 % \includegraphics[width=0.4\textwidth]{fig/Datad0Eff.pdf}
-\includegraphics[width=0.44\textwidth]{fig/Datad0Eff_10.pdf}
+\includegraphics[width=0.43\textwidth]{fig/Datad0Eff_10.pdf}
 \caption{The total $D^{0}$ reconstruction efficiency from different centrality classes in Au + Au collisions at $\sqrt{s_{_{\rm NN}}}$ = 200\,GeV.}
 \label{fig:Datad0Eff} 
 \end{figure}
@@ -1394,8 +580,7 @@ Source & \multicolumn{3}{c|}{Systematic Uncertainty} & Correlation in $p_{\rm T}
        & \hspace{1cm}0--10\%\hspace{1cm} & \hspace{1cm}60--80\%\hspace{1cm} & \hspace{1cm}$R_{\rm CP}$(0--10\%/60--80\%)\hspace{1cm} &  \\ \hline \hline
 Signal extra. & 1-6  & 1-12  & 2-13\ & uncorr. \\ \hline
 Double mis-PID & 1-7  & 1-7  & negligible & uncorr. \\ \hline \hline
-% $\varepsilon_{\rm TPC}$ & 3-6 & 3-7 & 3-7 & largely corr. \\ \hline
-$\varepsilon_{\rm TPC}$ & 5-7 & 5-8 & 3-7 & largely corr. \\ \hline
+$\varepsilon_{\rm TPC}$ & 3-6 & 3-7 & 3-7 & largely corr. \\ \hline
 $\varepsilon_{\rm HFT}$ & 3-15 & 3-20 & 3-20 & largely corr. \\ \hline
 $\varepsilon_{\rm PID}$ & 3 & 3 & negligible & largely corr. \\ \hline
 $\varepsilon_{\rm vtx}$ & 5 & 9-18 & 10-18 & largely corr. \\ \hline
@@ -1412,11 +597,11 @@ Table~\ref{table:syserror} summarizes the systematic uncertainty sources and the
 %The systematic uncertainties are studied for the spectra and $R_{\rm CP}$ analysis. Several sources are contributed to the uncertainties. Such as the TPC tracking, the raw yield extraction, the daughter $p_T$ cut scan, the topological cuts scan, the double counting and the vertex resolution contribution and so on. %The TPC uncertainties are studied by comparison of the tracking performance from real data and the MC simulation. A few different methods are used to extract the raw $D^0$ signal counts, for example using the like-sign method or mixed-event technique to subtract the combinatorial background, or using the binning counting method instead of directly fitting method to extract the yield. Several different daughter $p_T$ cuts are applied on the $D^0$ reconstruction and corrected for the efficiency. We also varied the topological variables for the reconstruction with a quite different reconstruction efficiency. The mis-identification from the daughter particles are studied. The vertex resolution is also discussed in the previous section.
 
 % Chapter four
-
+\
 \section{\label{result}Results and Discussion}
 
 \subsection{\label{result:pt}$p_{\rm T}$ Spectra and Integrated Yields}
-Figure~\ref{fig:D0_spectra} shows the efficiency-corrected $D^0$ invariant yield at mid-rapidity ($|y|<1$) vs. $p_{\rm T}$ in 0--10\%, 10--20\%, 20--40\%, 40--60\% and 60--80\% Au + Au collisions at $\sqrt{s_{_{\rm NN}}}$ = 200\,GeV. $D^0$ spectra in some centrality bins are arbitrarily scaled with factors indicated on the plot for clarity. Dashed and solid lines depict fits to the spectra with the Levy function
+Figure~\ref{fig:D0_spectra} shows the efficiency-corrected $D^0$ invariant yield at mid-rapidity ($|y|<1$) vs. $p_{\rm T}$ in 0--10\%, 10--20\%, 20--40\%, 40--60\%, 60--80\% and 0--80\% Au + Au collisions at $\sqrt{s_{_{\rm NN}}}$ = 200\,GeV. $D^0$ spectra in some centrality bins are arbitrarily scaled with factors indicated on the plot for clarity. Dashed and solid lines depict fits to the spectra with the Levy function
 
 \begin{widetext}
 \[
@@ -1426,14 +611,12 @@ Figure~\ref{fig:D0_spectra} shows the efficiency-corrected $D^0$ invariant yield
 
 where $m_0$ is the $D^0$ mass and $\frac{dN}{dy}$, $T$ and $n$ are free parameters. The Levy function fit describes the $D^0$ spectra nicely in all centrality bins up to 8\,GeV/$c$.
 
-
 \begin{figure}
 \centering
-\includegraphics[width=0.45\textwidth]{fig/D0_spectra.eps}
+\includegraphics[width=0.43\textwidth]{fig/D0_spectra.pdf}
 \caption{$D^{0}$ invariant yield at mid-rapidity ($|y|<1$) vs. transverse momentum for different centrality classes in Au + Au collisions at $\sqrt{s_{_{\rm NN}}}$ = 200\,GeV. Error bars (not visible for many data points) indicate statistical uncertainties and brackets depict systematical uncertainties. Global systematic uncertainties in $B.R.$ are not plotted. Solid and dashed lines depict Levy function fits.}
 \label{fig:D0_spectra} 
 \end{figure}
-
 
 We compare our new measurements with previous measurements using the STAR TPC only. The previous measurements are recently corrected after fixing errors in the TOF PID efficiency calculation~\cite{Star_D_RAA,Star_D_RAA_corr}. Fig.~\ref{fig:D0_compareSpectra_run10} shows the $p_{\rm T}$ spectra comparison in 0--10\%, 10-40\% and 40--80\% centrality bins in panel (a) and the ratios to the levy fit functions are shown in panel (b), (c), and (d). The new measurement with the HFT detector shows a nice agreement with the measurement without the HFT, but with significantly improved precision.
 
@@ -1447,7 +630,7 @@ We compare our new measurements with previous measurements using the STAR TPC on
 
 The measured $D^0$ spectra cover a wide $p_{\rm T}$ region which allows us to extract the $p_{\rm T}$ integrated total $D^0$ yield at mid-rapidity with good precision. Fig.~\ref{fig:Xsection_D0} shows the $p_{\rm T}$ integrated cross section $d\sigma/dy|_{y=0}$ for $D^0$ production per nucleon-nucleon collision from different centrality bins for the full $p_{\rm T}$ range shown in the top panel and for $p_{\rm T}>$ 4\,GeV/$c$ shown in the bottom panel. The result from previous $p+p$ measurement is also shown in the top panel.
 
-The total $D^0$ cross section per nucleon-nucleon collision at mid-rapidity $d\sigma/dy|_{y=0}$ shows approximately a flat distribution as a function of centrality, even though the systematic uncertainty in the 60--80\% centrality bin is a bit large. The values in mid-central to central Au+Au collisions are smaller than that in $p+p$ collisions with $\sim$ 1.5$\sigma$ effect considering the large uncertainties from the $p+p$ measurements. The total charm quark yield in heavy-ion collisions is expected to follow the number-of-binary-collision scaling since charm quarks are believed to be predominately created at the initial hard scattering before the formation of the QGP at RHIC energies, while the cold nuclear effect could also play an important role. In addition, coalescence hadronization mechanism has been suggested to potentially modify the charm quark distribution in various charm hadron states which may lead to the reduction in the observed $D^0$ yields in Au+Au collisions (as seen in Fig.~\ref{fig:Xsection_D0}). For instance, coalescence hadronization can lead to an enhancement in the charmed baryon $\Lambda_{c}^+$ yield relative to $D^0$ yield~\cite{Oh2009}, and together with the strangeness enhancement in the hot QCD medium, can also lead to an enhancement in the charmed strangeness meson $D_{s}^+$ yield relative to $D^0$~\cite{He2013}. Therefore, determination of the total charm quark yield in heavy-ion collisions will require measurements of other charm hadron states over a broad momentum range.
+The total $D^0$ cross section per nucleon-nucleon collision at mid-rapidity $d\sigma/dy|_{y=0}$ shows approximately a flat distribution as a function of centrality, even though the systematic uncertainty in the 60--80\% centrality bin is a bit large. The values in mid-central to central Au+Au collisions are smaller than that in $p+p$ collisions with $\sim$ 1.5$\sigma$ effect considering the large uncertainties from the $p+p$ measurements. The total charm quark yield in heavy-ion collisions is expected to follow the number-of-binary-collision scaling since charm quarks are believed to be predominately created at the initial hard scattering before the formation of the QGP at RHIC energies, while the cold nuclear effect could also play an important role. In addition, coalescence hadronization mechanism has been suggested to potentially modify the charm quark distribution in various charm hadron states which may lead to the reduction in the observed $D^0$ yields in Au+Au collisions. For instance, coalescence hadronization can lead to an enhancement in the charmed baryon $\Lambda_{c}^+$ yield relative to $D^0$ yield~\cite{Oh2009}, and together with the strangeness enhancement in the hot QCD medium, can also lead to an enhancement in the charmed strangeness meson $D_{s}^+$ yield relative to $D^0$~\cite{He2013}. Therefore, determination of the total charm quark yield in heavy-ion collisions will require measurements of other charm hadron states over a broad momentum range.
 
 \begin{figure}
 \centering
@@ -1497,7 +680,7 @@ The power-law function fit shows a good description to the 60--80\% centrality d
 % \end{figure}
 
 The obtained slope parameter $T_{\rm eff}$ for $D^0$ mesons is compared to other light and strange hadrons measured at RHIC. %Fig.~\ref{fig:mTFit_ALL} shows the exponential function fit to various hadron spectra 
-Fig.~\ref{fig:Teff_ALL} summarizes the slope parameter $T_{\rm eff}$ for various identified hadrons ($\pi^{\pm}$, $K^{\pm}$, $p$/$\bar{p}$, $\phi$, $\Lambda$, $\Xi^-$, $\Omega$, $D^0$ and $J/\psi$) in central Au + Au collisions at $\sqrt{s_{_{\rm NN}}}$ = 200\,GeV. Point-by-point statistical and systematical uncertainties in the $m_{\rm T}$ spectra are added together in quadratic sum when performing these fits and error bars shown on the data points in this figure represent the total uncertainties. All fits are performed up to $m_{\rm T}$ - $m_{0}$ $<1$\,GeV/$c^2$ ($\pi,\ K,\ p$), $<2$\,GeV/$c^2$ ($\phi,\ \Lambda,\ \Xi$), $<3$\,GeV/$c^2$($\Omega,\ D^{0},\ J/\psi$) for each particle, respectively. 
+Fig.~\ref{fig:Teff_ALL} summarizes the slope parameter $T_{\rm eff}$ for various identified hadrons ($\pi^{\pm}$, $K^{\pm}$, $p$/$\bar{p}$, $\phi$, $\Lambda$, $\Xi^-$, $\Omega$, $D^0$ and $J/\psi$) in central Au + Au collisions at $\sqrt{s_{_{\rm NN}}}$ = 200\,GeV. Point-by-point statistical and systematical uncertainties in the $m_{\rm T}$ spectra are added together in quadratic sum when performing these fits and error bars shown on the data points in this figure represent the total uncertainties. All fits are performed up to $m_{\rm T}$ - $m_{0}$ $<1$\,GeV/$c^2$ ($\pi,\ K,\ p$), $<2$\,GeV/$c^2$ ($\phi,\ \Lambda,\ \Xi$), $<3$\,GeV/$c^2$($\Omega,\ D^{0},\ J/\psi$) for each particle respectively. 
 
 The slope parameter $T_{\rm eff}$ in a thermalized medium can be characterized by the random (generally interpreted as a kinetic freezeout temperature $T_{\rm fo}$) and collective (radial flow velocity $\langle\beta_{\rm T}\rangle$) components with a simple relation~\cite{StarWhitePaper,Csorgo:1995bi,Kolb:2003dz}
 
@@ -1575,7 +758,19 @@ Table VI lists the fitting parameters, $\langle\beta\rangle$ and $(q-1)$ for the
 % Qualitatively, increasing centrality produces a strong increase in flow velocity, a mild increase in temperature, and a dramatic decrease in (q−1). This is consistent with a picture of increased thermalization with centrality but disfavors complete thermal equilibrium in all systems.
 
 \begin{table}[t]
-\centering{
+\DIFdelbeginFL %DIFDELCMD < \centering{
+%DIFDELCMD <   \caption{ $\langle\beta\rangle$ and $(q-1)$ from the Tsallis Blast-Wave fits to the $D^0$ data in different centralities .}
+%DIFDELCMD < \begin{tabular}{rcccccccc} \hline \hline
+%DIFDELCMD <   \hspace{1cm}Centrality\hspace{1cm} & \multicolumn{3}{c}{$\langle\beta\rangle$($c$)} & & \multicolumn{3}{c}{$q-1$} & \hspace{1cm} \\ \hline
+%DIFDELCMD <   0--10 \%\hspace{1cm}     & 0.260 & $\pm$ & 0.014 & & 0.065 & $\pm$ & 0.006 \\
+%DIFDELCMD <   10--20 \%\hspace{1cm}    & 0.255 & $\pm$ & 0.016 & & 0.070 & $\pm$ & 0.007 \\
+%DIFDELCMD <   20--40 \%\hspace{1cm}    & 0.259 & $\pm$ & 0.015 & & 0.071 & $\pm$ & 0.006 \\
+%DIFDELCMD <   40--60 \%\hspace{1cm}    & 0.242 & $\pm$ & 0.024 & & 0.074 & $\pm$ & 0.011 \\
+%DIFDELCMD <   60--80 \%\hspace{1cm}    & 0.186 & $\pm$ & 0.048 & & 0.080 & $\pm$ & 0.010  \\ \hline \hline
+%DIFDELCMD < \end{tabular}
+%DIFDELCMD < }
+%DIFDELCMD < %%%
+\DIFdelendFL \DIFaddbeginFL \centering{
   \caption{ $\langle\beta\rangle$ and $(q-1)$ from the Tsallis Blast-Wave fits to the $D^0$ data in different centralities .}
 \begin{tabular}{rcccccccc} \hline \hline
   \hspace{1cm}Centrality\hspace{1cm} & \multicolumn{3}{c}{$\langle\beta\rangle$($c$)} & & \multicolumn{3}{c}{$q-1$} & \hspace{1cm} \\ \hline
@@ -1586,7 +781,7 @@ Table VI lists the fitting parameters, $\langle\beta\rangle$ and $(q-1)$ for the
   60--80 \%\hspace{1cm}    & 0.217 & $\pm$ & 0.037 & & 0.075 & $\pm$ & 0.010  \\ \hline \hline
 \end{tabular}
 }
-\label{table:TBW_fit}
+\DIFaddendFL \label{table:TBW_fit}
 \end{table}
 
 \subsection{\label{result:RCP}Nuclear Modification Factor - $R_{\rm CP}$ $\&\&$  $R_{\rm AA}$}
@@ -1639,6 +834,20 @@ Figure~\ref{fig:D0_RAA} shows the calculated $R_{\rm AA}$ with the $p+p$ measure
 The measured $D^0$ $R_{\rm AA}$ in central (0-10\%) and mid-central (10-40\%) collisions show a significant suppression at the high $p_{\rm T}$ range which reaffirms the strong interactions between charm quarks and the medium, while the new Au+Au data points from this analysis contain much improved precision. Fig.~\ref{fig:D0_RAA_LHC} shows the $D^0$ $R_{\rm AA}$ in the 0-10\% most central collisions compared to that of average D meson from ALICE (a) and charged hadron from ALICE and $\pi^{\pm}$ from STAR (b)~\cite{Alice_D_RAA_2,Alice_hadron_RAA,PhenixPi0}. The comparison of $D^0$ between STAR and ALICE shows reasonable agreement within the uncertainties despite the large energy difference from 200\,GeV to 2.76\,TeV. The comparison to that of light hadrons shows similar suppression at the high $p_{\rm T}$, while in the intermedium range, $D^0$ mesons are less suppressed.
 
 
+
+\begin{figure}
+\centering
+\includegraphics[width=0.45\textwidth]{fig/D0_Rcp11.pdf}
+\caption{$D^{0}$ $R_{\rm CP}$ with the 60--80\% spectrum as the reference for different centrality classes in Au + Au collisions compared to model calculations~\cite{Cao:2016gvr,LBT:private}. The statistical and systematic uncertainties are shown as error bars and brackets on the data points. The grey bands around unity depict the systematic uncertainty due to vertex resolution correction, mostly from the 60--80\% reference spectrum. The light and dark green boxes on the right depict the normalization uncertainty in determining the $N_{\rm bin}$.}
+\label{fig:D0_Rcp11} 
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.45\textwidth]{fig/D0_Rcp22.pdf}
+\caption{$D^{0}$ $R_{\rm CP}$ with the 40--60\% spectrum as the reference for different centrality classes in Au + Au collisions compared to model calculations~\cite{Cao:2016gvr,LBT:private,Xu:2017obm}. The statistical and systematic uncertainties are shown as error bars and brackets on the data points. The grey bands around unity depict the systematic uncertainty due to vertex resolution correction, mostly from the 40--60\% reference spectrum. The light and dark green boxes on the right depict the normalization uncertainty in determining the $N_{\rm bin}$.}
+\label{fig:D0_Rcp22} 
+\end{figure}
 
 % \begin{figure*}
 % \centering
@@ -1695,24 +904,9 @@ VII lists the fitted results for the $\overline{D}^{0}$/$D^0$ ratio from various
 
 \subsection{\label{result:theory}Comparison to Models}
 
-\begin{figure}
-\centering
-\includegraphics[width=0.45\textwidth]{fig/D0_Rcp11.pdf}
-\caption{$D^{0}$ $R_{\rm CP}$ with the 60--80\% spectrum as the reference for different centrality classes in Au + Au collisions compared to model calculations~\cite{Cao:2016gvr,LBT:private}. The statistical and systematic uncertainties are shown as error bars and brackets on the data points. The grey bands around unity depict the systematic uncertainty due to vertex resolution correction, mostly from the 60--80\% reference spectrum. The light and dark green boxes on the right depict the normalization uncertainty in determining the $N_{\rm bin}$.}
-\label{fig:D0_Rcp11} 
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=0.45\textwidth]{fig/D0_Rcp22.pdf}
-\caption{$D^{0}$ $R_{\rm CP}$ with the 40--60\% spectrum as the reference for different centrality classes in Au + Au collisions compared to model calculations~\cite{Cao:2016gvr,LBT:private,Xu:2017obm}. The statistical and systematic uncertainties are shown as error bars and brackets on the data points. The grey bands around unity depict the systematic uncertainty due to vertex resolution correction, mostly from the 40--60\% reference spectrum. The light and dark green boxes on the right depict the normalization uncertainty in determining the $N_{\rm bin}$.}
-\label{fig:D0_Rcp22} 
-\end{figure}
-
-
 Over the past several years, there have been rapid developments in the theoretical calculations on the charm hadron production. Here we compare our measurements to several recent calculations based on the Duke model and the Linearized Boltzmann Transport (LBT) model.
 
-The Duke model~\cite{Duke,Xu:2017obm} uses a Langevin stochastic simulation to trace the charm quark propagation inside the QGP medium. Both collisional and radiative energy losses are included in the calculation and charm quarks are hadronized via a hybrid approach combining both coalescence and fragmentation mechanisms. The bulk medium is simulated using a viscous hydrodynamic evolution and a hadronic cascade evolution using the UrQMD model~\cite{urQMD}. The charm quark interaction with the medium is characterized using a temperature and momentum-dependent diffusion coefficient. The medium parameters have been constrained via a statistical Bayesian analysis by fitting the previous experimental data of $R_{\rm AA}$ and $v_{2}$ of light, strange and charm hadrons~\cite{Xu:2017obm}. The extracted charm quark spatial diffusion coefficient at zero momentum $2\pi TD_s|_{p=0}$ is about 1--3 near $T_{\rm c}$ and exhibits a positive slope for its temperature dependence above $T_{\rm c}$.
+The Duke model~\cite{Duke,Xu:2017obm,DukePrivateCom} uses a Langevin stochastic simulation to trace the charm quark propagation inside the QGP medium. Both collisional and radiative energy losses are included in the calculation and charm quarks are hadronized via a hybrid approach combining both coalescence and fragmentation mechanisms. The bulk medium is simulated using a viscous hydrodynamic evolution and a hadronic cascade evolution using the UrQMD model~\cite{urQMD}. The charm quark interaction with the medium is characterized using a temperature and momentum-dependent diffusion coefficient. The medium parameters have been constrained via a statistical Bayesian analysis by fitting the previous experimental data of $R_{\rm AA}$ and $v_{2}$ of light, strange and charm hadrons~\cite{Xu:2017obm}. The extracted charm quark spatial diffusion coefficient at zero momentum $2\pi TD_s|_{p=0}$ is about 1--3 near $T_{\rm c}$ and exhibits a positive slope for its temperature dependence above $T_{\rm c}$.
 
 The Linearized Boltzmann Transport (LBT) calculation~\cite{Cao:2016gvr} extends the LBT approach developed before to include both light and heavy flavor parton evolution in the QGP medium. The transport calculation includes all $2\rightarrow 2$ elastic scattering processes for collisional energy loss and the higher-twist formalism for medium induced radiative energy loss. It uses the same hybrid approach as in the Duke model for charm quark hadronization. The heavy quark transport is coupled with a 3D viscous hydrodynamic evolution which is tuned for light flavor hadron data. The charm quark spatial diffusion coefficient is estimated via the $2\pi TD_s =8\pi/\hat{q}$ ($\hat{q}$, is the quark transport coefficient due to elastic scatterings) at parton momentum $p = 10$\,GeV/$c$. The $2\pi TD_s$ is $\sim$3 at $T_{\rm c}$ and increases to $\sim$6 at $T = 500$\,MeV~\cite{LBT:private}.
 
